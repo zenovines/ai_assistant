@@ -1,4 +1,4 @@
-from actions import open_safari
+from actions import open_safari, speak
 
 Running = True
 
@@ -11,6 +11,7 @@ while Running:
         print("Aki > Hi i am Aki!")
     elif user == "hello":
         print("Aki > Hello.")
+        speak("Hello")
     elif user == "open safari":
         print("Aki > Opening Safari..")
         open_safari()
